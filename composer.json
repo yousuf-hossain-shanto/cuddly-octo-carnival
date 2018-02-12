@@ -1,0 +1,22 @@
+{
+    "name": "lpress/helpers",
+    "description": "The LaraPress helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yousuf Hossain Shanto",
+            "email": "yousuf.hossain.shanto@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/view": "5.6.*",
+        "illuminate/database": "5.6.*",
+        "lpress/view": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "src/functions.php",
+            "src/database.php"
+        ]
+    }
+}
